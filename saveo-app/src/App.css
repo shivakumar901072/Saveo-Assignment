@@ -1,0 +1,105 @@
+
+body {
+  background-color: #72A1BF;
+
+}
+
+.innerDiv {
+  border-radius: 20px;
+  margin: 100px 250px;
+  background-color: #074770;
+  height: 500px;
+  
+
+}
+
+.nav {
+  justify-content: center;
+  top: 0px;
+  height: 80px;
+  text-align: center;
+  
+}
+
+.column {
+  background-color:white;
+  float: left;
+  width: 45%;
+  border: #F2FAFF;
+  height: 420px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  background-color:white;
+  float: left;
+  width: 55%;
+  
+  height: 420px; /* Should be removed. Only for demonstration */
+}
+
+.row::after {
+  position: relative;
+  
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 
+.location {
+  float:left;
+  margin-left: 10px;
+  margin-top: 5px;
+} */
+
+.inputLoc {
+  float:left;
+  margin-top: 1px;
+  margin-left: 20px;
+  width: 120px;
+height: 25px; 
+background: #F2FAFF 0% 0% no-repeat padding-box;
+border-radius: 0px; 
+  
+}
+label {
+  float:left;
+  
+  margin-left: 20px;
+  position: relative;
+  margin-right: 35px;
+  font: normal normal normal 14px/19px Segoe UI;
+  color: #A5C0D1;
+
+}
+.lat {
+  float:left;
+  
+  margin-left: 20px;
+  position: relative;
+  margin-right: 20px;
+  font: normal normal normal 14px/19px Segoe UI;
+  color: #A5C0D1;
+
+}
+input {
+  float:left;
+  margin-top: 1px;
+  margin-left: 20px;
+  width: 100px;
+height: 25px; 
+background: #F2FAFF 0% 0% no-repeat padding-box;
+border-radius: 0px; 
+
+}
+.btn {
+  float: right;
+  
+  margin-right: 40px;
+  width: 120px;
+height: 30px; 
+
+border-radius: 15px;
+background:#72A1BF;
+color: #074770;
+
+
+}
